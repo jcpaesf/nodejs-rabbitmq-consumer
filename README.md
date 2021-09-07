@@ -82,3 +82,5 @@ Put the project ID that we get from the Sentry after we create a project
 <h2>Testing the project</h2>
 
 After follow this steps you can run the command <code>yarn dev</code> or <code>npm run dev</code>.
+
+Run the producer project and send a notification on the POSTMAN (or other application) to the URL <code>http://localhost:3333/notifications</code>. After send a message, in the console of this project you will a console.log that the message was received
